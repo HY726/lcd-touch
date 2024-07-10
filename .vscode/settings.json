@@ -1,21 +1,24 @@
 {
     "C_Cpp.intelliSenseEngine": "default",
     "idf.adapterTargetName": "esp32s3",
-    "idf.customExtraPaths": "/Users/tanhanyue/esp-idf-5.1/mode/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/xtensa-esp32s2-elf/esp-12.2.0_20230208/xtensa-esp32s2-elf/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/cmake/3.24.0/CMake.app/Contents/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/bin:/Users/tanhanyue/esp-idf-5.1/mode/tools/ninja/1.10.2:/Users/tanhanyue/esp-idf-5.1/mode/tools/esp-rom-elfs/20230320",
+    "idf.customExtraPaths": "/home/tsdl/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/home/tsdl/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin:/home/tsdl/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:/home/tsdl/.espressif/tools/xtensa-esp32s2-elf/esp-12.2.0_20230208/xtensa-esp32s2-elf/bin:/home/tsdl/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/home/tsdl/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/home/tsdl/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/tsdl/.espressif/tools/cmake/3.24.0/bin:/home/tsdl/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/bin:/home/tsdl/.espressif/tools/ninja/1.10.2:/home/tsdl/.espressif/tools/esp-rom-elfs/20230320",
     "idf.customExtraVars": {
-        "OPENOCD_SCRIPTS": "/Users/tanhanyue/esp-idf-5.1/mode/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts",
-        "ESP_ROM_ELF_DIR": "/Users/tanhanyue/esp-idf-5.1/mode/tools/esp-rom-elfs/20230320/"
+        "OPENOCD_SCRIPTS": "/home/tsdl/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/home/tsdl/.espressif/tools/esp-rom-elfs/20230320/"
     },
-    "idf.espIdfPath": "/Users/tanhanyue/esp-idf-5.1/esp-idf",
+    "idf.espIdfPath": "/home/tsdl/esp-idf-5.1/v5.1/esp-idf",
     "idf.openOcdConfigs": [
         "interface/ftdi/esp32_devkitj_v1.cfg",
         "target/esp32.cfg"
     ],
-    "idf.port": "/dev/cu.wchusbserial55340020761",
-    "idf.pythonBinPath": "/Users/tanhanyue/esp-idf-5.1/mode/python_env/idf5.1_py3.11_env/bin/python",
-    "idf.toolsPath": "/Users/tanhanyue/esp-idf-5.1/mode",
+    "idf.port": "/dev/ttyACM0",
+    "idf.pythonBinPath": "/home/tsdl/.espressif/python_env/idf5.1_py3.8_env/bin/python",
+    "idf.toolsPath": "/home/tsdl/.espressif",
     "files.associations": {
         "task.h": "c",
-        "esp_lcd_touch_gt911.h": "c"
-    }
+        "esp_lcd_touch_gt911.h": "c",
+        "esp_lvgl_port.h": "c"
+    },
+    "idf.gitPath": "git",
+    "idf.flashType": "UART"
 }
