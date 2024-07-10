@@ -105,7 +105,7 @@ static esp_err_t app_lcd_init(void)
 
     esp_lcd_panel_reset(lcd_panel);
     esp_lcd_panel_init(lcd_panel);
-    esp_lcd_panel_mirror(lcd_panel, false, false);
+    esp_lcd_panel_mirror(lcd_panel, true, false);
     esp_lcd_panel_disp_on_off(lcd_panel, true);
 
     /* LCD backlight on */
@@ -150,7 +150,7 @@ static esp_err_t app_touch_init(void)
         },
         .flags = {
             .swap_xy = 0,
-            .mirror_x = 1,
+            .mirror_x = 0,
             .mirror_y = 0,
         },
     };
@@ -185,7 +185,7 @@ static esp_err_t app_lvgl_init(void)
         /* Rotation values must be same as used in esp_lcd for initial settings of the screen */
         .rotation = {
             .swap_xy = false,
-            .mirror_x = false,
+            .mirror_x = true,
             .mirror_y = false,
         },
         .flags = {
